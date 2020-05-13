@@ -1,0 +1,10 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Hartford200s/config-server-properties.git     # 配置git仓库的地址
